@@ -37,6 +37,18 @@ To use the MP3 Audio Downloader script, follow these steps:
 4. Open a terminal, navigate to the directory where the script is saved, and run the script with the command `chmod +x download_youtube_videos_mp3.sh && ./download_youtube_videos_mp3.sh`.
 5. The script will download the audio of each video as an MP3 file to the current directory.
 
+### 3. Download YouTube Videos
+
+This script combines the above scripts, it will ask for the file format, the path of the text document and the path where the downloaded files would be saved
+To use the YouTube Video Downloader script, follow these steps:
+
+1. Save the `download_youtube_videos.sh` script to your desired directory.
+2. In the same directory, create a text file with one YouTube video URL per line. You will be prompted to provide the path to this file when you run the script.
+3. Open a terminal, navigate to the directory where the script is saved, and run the script with the command `chmod +x download_youtube_videos.sh && ./download_youtube_videos.sh`.
+4. The script will prompt you to enter the desired format (mp3 or mp4), the path to the text file with video links, and the directory where you'd like to save the downloaded files.
+5. The script will download each video in the desired format to the specified directory.
+
+
 ## License
 
 This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
