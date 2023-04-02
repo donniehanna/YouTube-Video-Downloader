@@ -16,6 +16,9 @@ This repository contains two Bash scripts to download YouTube videos as MP4 (vid
 
 2. `download_youtube_videos_mp3.sh`: Downloads YouTube videos as MP3 files (audio only).
 
+3. `download_youtube_videos.sh`: Downloads YouTube videos as MP4 (video and audio) or MP3 (audio only) files based on the user's choice.
+
+
 ## Usage
 
 ### 1. MP4 Video Downloader
